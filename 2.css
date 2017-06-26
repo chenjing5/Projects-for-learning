@@ -1,0 +1,59 @@
+#container{
+	width: 1000px;
+	background: gray;
+}
+	#top{
+	width: 990px;
+	height: 100px;
+/*	float: left;*/
+	background: green;
+	}
+	#mid{
+	width: 990px;
+	height: 410px;
+	/*float: left;*/
+	background: red;
+	}
+		#lside{
+		width: 620px;
+		height: 400px;
+		float: left;
+		background: orange;
+		}
+			#left1{
+			width: 300px;
+			height: 200px;
+			float: left;
+			background: pink;
+			}
+			#left2{
+			width: 300px;
+			height: 200px;
+			float: left;
+			clear: right;
+			background: white;
+			}
+			#left3{
+			width: 300px;
+			height: 200px;
+			float: left;
+			clear: left;
+			background: white;
+			}
+			#left4{
+			width: 300px;
+			height: 200px;
+			float: left;
+			background: pink;
+			}
+		#rside{
+		width: 360px;
+		height: 400px;
+		float: left;
+		background: blue;
+		}
+	#last{
+		height: 100px;
+		/*float: left;*/
+		background: yellow;
+	}
