@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>水平居中和margin重叠</title>
+	<style>
+		#container{
+			width: 400px;
+			height: 400px;
+			background: gray;
+			margin: 50px 100px;
+		}
+		#first{
+			width: 100px;
+			height: 100px;
+			background: yellow;
+			margin: 100px auto;
+		}
+		#second{
+			width: 100px;
+			height: 100px;
+			background: green;
+			margin: auto auto;
+		}
+	</style>
+</head>
+<body>
+	<div id = container>
+		<div id =first>竖直方向的auto没有用？</div>
+		<div id =second>子div的auto也是针对父div的</div>
+	</div>
+</body>
+</html>
